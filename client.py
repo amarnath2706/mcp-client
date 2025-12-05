@@ -35,6 +35,7 @@ class MCPClient:
         # Configure the Gemini AI client
         self.genai_client = genai.Client(api_key=gemini_api_key)
 
+    #Connecting to the MCP server
     async def connect_to_server(self, server_script_path: str):
         """Connect to the MCP server and list available tools."""
 
